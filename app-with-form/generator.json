@@ -1,0 +1,43 @@
+{
+  "author": "HubSpot",
+  "description": "Simple private app with a form",
+  "version": "1.0.0",
+  "componentRoot": "app",
+  "questions": [
+    {
+      "text": "What is the name of your app?",
+      "type": "string",
+      "tagValue": "appName"
+    },
+    {
+      "text": "What is the description of your app?",
+      "type": "string",
+      "tagValue": "appDescription"
+    },
+    {
+      "text": "What is the title of your card?",
+      "type": "string",
+      "tagValue": "cardTitle"
+    },
+    {
+      "text": "Enter a descirption for the form",
+      "type": "string",
+      "tagValue": "formDescription"
+    },
+    {
+      "text": "Enter the label for the form",
+      "type": "string",
+      "tagValue": "formLabel"
+    },
+    {
+      "text": "Enter a default value for the form, or leave blank.",
+      "type": "string",
+      "tagValue": "formDefaultValue"
+    },
+    {
+      "text": "Enter the text for the form submit button",
+      "type": "string",
+      "tagValue": "formDefaultValue"
+    },
+  ]
+}
