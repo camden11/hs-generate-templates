@@ -38,6 +38,6 @@
       "text": "Enter the text for the form submit button",
       "type": "string",
       "tagValue": "formDefaultValue"
-    },
+    }
   ]
 }
