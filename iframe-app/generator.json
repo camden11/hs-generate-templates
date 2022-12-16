@@ -1,6 +1,6 @@
 {
   "author": "HubSpot",
-  "description": "Simple private app with a form",
+  "description": "Template to open an iframe",
   "version": "1.0.0",
   "componentRoot": "app",
   "questions": [
@@ -20,24 +20,19 @@
       "tagValue": "cardTitle"
     },
     {
-      "text": "Enter a descirption for the form",
+      "text": "Enter a description for the iframe.",
       "type": "string",
-      "tagValue": "formDescription"
+      "tagValue": "iframeDescription"
     },
     {
-      "text": "Enter the label for the form",
+      "text": "Enter text for the button to open the iframe.",
       "type": "string",
-      "tagValue": "formLabel"
+      "tagValue": "iframeButtonText"
     },
     {
-      "text": "Enter a default value for the form, or leave blank.",
+      "text": "Enter the url for the iframe",
       "type": "string",
-      "tagValue": "formDefaultValue"
-    },
-    {
-      "text": "Enter the text for the form submit button",
-      "type": "string",
-      "tagValue": "formSubmitButtonText"
+      "tagValue": "iframeUrl"
     }
   ]
 }
